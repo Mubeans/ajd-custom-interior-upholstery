@@ -1,0 +1,29 @@
+# --- OS cruft -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- Editors --------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Secrets --------------------------------------------------------------
+# This project has none. These rules exist so it stays that way.
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# --- Dependencies and build output ---------------------------------------
+# This is a hand-written static site: no build step, nothing generated.
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+__pycache__/
+*.log
